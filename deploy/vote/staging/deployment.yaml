@@ -12,3 +12,7 @@ spec:
       containers:
         - image: quay.io/yassinelinsoft/vote:v5
           name: vote
+          envFrom:
+            - configMapRef:
+              name: vote
+              optional: true
