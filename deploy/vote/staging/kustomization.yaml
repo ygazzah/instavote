@@ -6,3 +6,8 @@ patchesStrategicMerge:
   - deployment.yaml
   - service.yaml
 namespace: instavote
+commonLabels:
+  project: instavote
+  env: staging
+commonAnnotations:
+  supported-by: "sre@example.com"
