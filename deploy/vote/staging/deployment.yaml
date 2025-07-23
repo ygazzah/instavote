@@ -10,7 +10,7 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/yassinelinsoft/vote:v5
+        - image: quay.io/yassinelinsoft/vote:v4
           name: vote
           envFrom:
             - configMapRef:
