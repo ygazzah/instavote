@@ -16,3 +16,6 @@ configMapGenerator:
     literals:
       - OPTION_A=STAGING
       - OPTION_B=PROD
+images:
+  - name: ygazzah2/vote
+    newTag: v5
