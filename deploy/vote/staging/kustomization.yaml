@@ -18,4 +18,4 @@ configMapGenerator:
       - OPTION_B=PROD
 images:
   - name: ygazzah2/vote
-    newTag: v5
+    newTag: v5 # {"$imagepolicy": "flux-system:vote:tag"}
