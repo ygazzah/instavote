@@ -4,3 +4,6 @@ bases:
   - ../base
 patches:
   - deployment.yaml 
+images:
+  - name: ygazzah2/vote
+    newTag: main-e448b031-1753293010 # {"$imagepolicy": "flux-system:vote:tag"}
