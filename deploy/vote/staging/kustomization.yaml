@@ -17,6 +17,6 @@ configMapGenerator:
       - OPTION_A=STAGING
       - OPTION_B=PROD
 images:
-  - name: quay.io/yassinelinsoft/vote:v4 
+  - name: quay.io/yassinelinsoft/vote:v4
     newName: ygazzah2/vote
-    newTag: v5 # {"$imagepolicy": "flux-system:vote:tag"}
+    newTag: main-63d18388-1753347166 # {"$imagepolicy": "flux-system:vote:tag"}
