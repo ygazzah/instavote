@@ -19,4 +19,4 @@ configMapGenerator:
 images:
   - name: quay.io/yassinelinsoft/vote:v4
     newName: ygazzah2/vote
-    newTag: main-e448b031-1753293010 # {"$imagepolicy": "flux-system:vote:tag"}
+    newTag: main-63d18388-1753347166 # {"$imagepolicy": "flux-system:vote:tag"}
