@@ -6,7 +6,7 @@
 replicaCount: 1
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
-  repository: main-e448b031-1753293207 # {"$imagepolicy": "flux-system:result:tag"}
+  repository: ygazzah2/result:v1 # {"$imagepolicy": "flux-system:result"}
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
